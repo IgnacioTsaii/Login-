@@ -15,4 +15,47 @@ body{
     z-index: -1;
 }
 
-.login-container
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 7rem;
+    padding: 0 2rem;
+}
+
+.img{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.img img{
+    width: 500px;
+}
+
+.login-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+form{
+    width: 360px;
+}
+
+.avatar{
+    width: 100px;
+}
+
+form h2{
+    font-size: 2.9rem;
+    text-transform: uppercase;
+    margin: 15px 0;
+    color: #333333;
+}
+
+.input-div{
+    display: grid;
+    grid-template-columns: 7% 93%;
+}
